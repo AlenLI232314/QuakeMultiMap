@@ -1,0 +1,7 @@
+---- vis / ericw-tools v0.18.1 ----
+running with 12 threads
+testlevel = 4
+LoadBSPFile: 'FistFightMap.bsp'
+BSP is version 29
+LoadPortals: couldn't read FistFightMap.prt
+No vising performed.
