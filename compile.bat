@@ -15,7 +15,7 @@ echo --------------QBSP--------------
 F:\quake-leveldesign-starterkit-master\quake-leveldesign-starterkit-master\tools\ericw-tools\bin\qbsp.exe FistFightMap
 
 echo --------------VIS---------------
-F:\quake-leveldesign-starterkit-master\quake-leveldesign-starterkit-master\tools\ericw-tools\bin\vis.exe FistFightMap
+F:\quake-leveldesign-starterkit-master\quake-leveldesign-starterkit-master\tools\ericw-tools\bin\vis.exe -fast FistFightMap
 
 echo -------------LIGHT--------------
 F:\quake-leveldesign-starterkit-master\quake-leveldesign-starterkit-master\tools\ericw-tools\bin\light.exe FistFightMap

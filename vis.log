@@ -1,7 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
+fastvis = true
 running with 12 threads
 testlevel = 4
 LoadBSPFile: 'FistFightMap.bsp'
 BSP is version 29
-LoadPortals: couldn't read FistFightMap.prt
-No vising performed.
+   192 leafs
+   669 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+average leafs visible: 178
+c_noclip: 0
+c_chains: 0
+visdatasize:4641  compressed from 4608
+Writing FistFightMap.bsp as BSP version 29
+  0.1 seconds elapsed

@@ -3,62 +3,86 @@ Input file: FistFightMap.map
 Output file: FistFightMap.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
-          476 faces
-           79 brushes
-           46 entities
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 02: Multiple info_player_start entities
+*** WARNING 02: Multiple info_player_start entities
+          552 faces
+           89 brushes
+           77 entities
             9 unique texnames
-           79 texinfo
+          141 texinfo
 
 Opened WAD: F:/quake-leveldesign-starterkit-master/quake-leveldesign-starterkit-master/wads/START.WAD
 Opened WAD: F:/quake-leveldesign-starterkit-master/quake-leveldesign-starterkit-master/wads/prototype_1_2.wad
 Opened WAD: wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           79 brushes
-           97 planes
+           89 brushes
+          153 planes
 ---- CSGFaces ----
-          476 brushfaces
-          519 csgfaces
-          458 mergedfaces
+          552 brushfaces
+          598 csgfaces
+          534 mergedfaces
 ---- SolidBSP ----
-          662 split nodes
-          281 solid leafs
-          359 empty leafs
-           23 water leafs
+          999 split nodes
+          359 solid leafs
+          606 empty leafs
+           35 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1768 leaffaces
-         1720 nodefaces
+         2178 leaffaces
+         2003 nodefaces
 ---- Portalize ----
-          382 vis leafs
-          382 vis clusters
-         1038 vis portals
+          641 vis leafs
+          641 vis clusters
+         1808 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (424 -232 168), no filling performed.
-Leak file written to FistFightMap.pts
+          328 outleafs
+---- MergeAll ----
+          484 mergefaces
+---- SolidBSP ----
+          305 split nodes
+          114 solid leafs
+          188 empty leafs
+            4 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1229 leaffaces
+          881 nodefaces
+---- Portalize ----
+          192 vis leafs
+          192 vis clusters
+          669 vis portals
+---- Tjunc ----
+          721 world edges
+         2990 edge points
+          722 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
+*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote FistFightMap.bsp
-          147 planes             2940
-         2113 vertexes          25356
-          662 nodes             15888
-           65 texinfo            2600
-         1720 faces             34400
-          622 clipnodes          4976
-          383 leafs             10724
-         1768 marksurfaces       3536
-         6881 surfedges         27524
-         4366 edges             17464
-            9 textures         132304
+          416 planes             8320
+         1185 vertexes          14220
+          305 nodes              7320
+          110 texinfo            4400
+          881 faces             17620
+         1358 clipnodes         10864
+          193 leafs              5404
+         1229 marksurfaces       2458
+         4266 surfedges         17064
+         2142 edges              8568
+            9 textures          65128
               lightdata             0
               visdata               0
-              entdata            2502
+              entdata            4625
 
-0.140 seconds elapsed
-Peak memory usage: 6793452 (6.5M)
+0.274 seconds elapsed
+Peak memory usage: 7171282 (6.8M)
