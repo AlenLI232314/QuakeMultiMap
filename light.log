@@ -11,7 +11,7 @@ WARNING: Not 3 values for mangle
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	861 solid faces
+	888 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 50 initial lights
@@ -26,12 +26,12 @@ Final count: 50 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 58901
+lightdatasize: 61193
 0 switchable light styles (32 max)
 Writing FistFightMap.bsp as BSP version 29
-0.136 seconds elapsed
+0.138 seconds elapsed
 
 stats:
-3.598816 lights tested, 3.014481 hits per sample point
+3.569010 lights tested, 2.910330 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
